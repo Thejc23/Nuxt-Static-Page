@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white h-auto fixed w-full">
+  <div class="bg-white fixed w-full">
     <section class="pl-10">
       <div class="flex flex-row">
         <div class="text-left">

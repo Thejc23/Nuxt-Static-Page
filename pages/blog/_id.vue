@@ -1,11 +1,11 @@
 <template>
-  <div class="pt-12 text-center m-auto">
+  <div class="text-center m-auto">
     <section class="text-center m-auto sectionImage w-full " />
     <section class="text-center m-auto">
       <h1 class="text-3xl text-orange-600 mt-8 capitalize">
         Fuckable CSS (TailwindCSS)
       </h1>
-      <div class=" leading-relaxed tracking-wider text-gray-700 text-xl mt-8 text-center antialiased italic mr-24 ml-24">
+      <div class=" w-1/2 w-64 leading-relaxed tracking-wider text-gray-700 text-xl mt-8 text-center antialiased italic  m-auto">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Aliquet enim tortor
         at auctor urna nunc. Pellentesque nec nam aliquam sem et tortor
@@ -68,11 +68,22 @@
         in pellentesque massa placerat. Amet cursus sit amet dictum.
       </div>
     </section>
+    <section class="bg-white mt-10 text-center  m-auto ">
+      <h1 class="font-medium text-2xl text-orange-500 italic font-serif pt-4">
+        Recent added
+      </h1>
+      <div class="flex flex-row px4 text-center m-auto xl:max-w-6xl ">
+        <RecentPostComponent class="mr-auto ml-5" v-for="Recent in 2" :key=Recent.id />
+      </div>
+    </section>
   </div>
 </template>
 
 <script>
-export default {};
+import RecentPostComponent from "../../components/HomeComponents/RecentPostComponent";
+export default {
+  components: {RecentPostComponent}
+};
 </script>
 
 <style scoped>
@@ -81,6 +92,6 @@ export default {};
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  min-height: 800px;
+  height: 100vh;
 }
 </style>

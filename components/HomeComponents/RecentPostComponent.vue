@@ -1,6 +1,5 @@
 <template>
   <nuxt-link to="blog/1">
-    <div>
       <div id="container">
         <div class="product-details">
           <h1 class="text-orange-600 font-medium text-xl">Fuckable CSS (TailwindCSS)</h1>
@@ -12,7 +11,6 @@
           <img src="~/static/images/code.jpeg" alt="CodingSantana" />
         </div>
       </div>
-    </div>
   </nuxt-link>
 </template>
 

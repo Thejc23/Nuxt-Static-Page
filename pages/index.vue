@@ -16,7 +16,7 @@
       </div>
     </section>
 
-    <section class="bg-white mt-10 text-center ">
+    <section class="bg-white mt-10 text-center xl:max-w-6xl  m-auto ">
       <h1 class="font-medium text-4xl text-orange-500 italic font-serif pt-4">
         Recent Posts
       </h1>
