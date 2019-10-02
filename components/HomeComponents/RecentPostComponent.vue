@@ -1,5 +1,5 @@
 <template>
-  <a href="/">
+  <nuxt-link to="blog/1">
     <div>
       <div id="container">
         <div class="product-details">
@@ -13,7 +13,7 @@
         </div>
       </div>
     </div>
-  </a>
+  </nuxt-link>
 </template>
 
 <script>
