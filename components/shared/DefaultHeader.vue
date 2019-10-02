@@ -3,37 +3,33 @@
     <section class="pl-10">
       <div class="flex flex-row">
         <div class="text-left">
-          <a
-            href=""
+          <nuxt-link
+            to="/"
             class="font-bold text-4xl pr-4 mt-auto hover:bg-orange-500 mb-2 socials"
-            >GO2CODE</a
-          >
-          <a
-            href=""
+          >GO2CODE</nuxt-link>
+          <nuxt-link
+            to="/blog"
             class="text-base font-medium tracking-widest px-2 mt-auto hover:bg-orange-500 mb-2 socials"
-            >Blog</a
-          >
-          <a
-            href=""
+          >Blog</nuxt-link>
+          <nuxt-link
+            to="/"
             class="text-base font-medium tracking-widest px-2 mt-auto hover:bg-orange-500 mb-2 socials"
-            >About</a
-          >
-          <a
-            href=""
+          >About</nuxt-link>
+          <nuxt-link
+            to="/contact"
             class="text-base font-medium tracking-widest px-2 mt-auto hover:bg-orange-500 mb-2 socials"
-            >Contact</a
-          >
+          >Contact</nuxt-link>
         </div>
         <div class="ml-auto mt-auto mb-2 mr-5">
-          <a href=""
-            ><font-awesome-icon :icon="['fab', 'linkedin']" class="mx-2 socials "
-          /></a>
-          <a href=""
-            ><font-awesome-icon :icon="['fab', 'github']" class="mx-2 socials"
-          /></a>
-          <a href=""
-            ><font-awesome-icon :icon="['fab', 'facebook']" class="mx-2 socials"
-          /></a>
+          <a href>
+            <font-awesome-icon :icon="['fab', 'linkedin']" class="mx-2 socials" />
+          </a>
+          <a href>
+            <font-awesome-icon :icon="['fab', 'github']" class="mx-2 socials" />
+          </a>
+          <a href>
+            <font-awesome-icon :icon="['fab', 'facebook']" class="mx-2 socials" />
+          </a>
         </div>
       </div>
     </section>
@@ -47,7 +43,7 @@ export default {
 </script>
 
 <style scoped>
-  .socials{
-    color: #3E3C56;
-  }
+.socials {
+  color: #3e3c56;
+}
 </style>

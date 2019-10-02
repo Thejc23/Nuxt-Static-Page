@@ -21,7 +21,7 @@
         Recent Posts
       </h1>
       <div class="flex flex-wrap px4 m-2 text-left">
-        <RecentPostComponent class="mr-auto ml-5" v-for="Recent in 4" />
+        <RecentPostComponent class="mr-auto ml-5" v-for="Recent in 4" :key=Recent.id />
       </div>
     </section>
   </div>

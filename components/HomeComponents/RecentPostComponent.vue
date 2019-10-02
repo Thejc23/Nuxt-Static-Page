@@ -3,11 +3,10 @@
     <div>
       <div id="container">
         <div class="product-details">
-          <h1 class="text-orange-600 font-medium text-2xl">Biru Putaran</h1>
-          <span class="text-center justify-center m-auto text-lg text-gray-700 font-light">
-            "Especially good for container gardening, the Angelonia will keep
-            blooming all summer even if old flowers are removed."</span
-          >
+          <h1 class="text-orange-600 font-medium text-xl">Fuckable CSS (TailwindCSS)</h1>
+          <span
+            class="text-center justify-center m-auto text-lg text-gray-700 font-light"
+          >"I'm not a fucking hindu but today u gonna learn how to beat and rape any web-design with TailwindCSS"</span>
         </div>
         <div class="product-image">
           <img src="~/static/images/code.jpeg" alt="CodingSantana" />
@@ -42,9 +41,9 @@ body {
 
 /* 	Product details  */
 .product-details {
-  position: relative;
+  /* position: relative; */
   text-align: left;
-  overflow: scroll;
+  overflow: hidden;
   padding: 30px;
   height: 100%;
   float: left;
@@ -55,7 +54,7 @@ body {
 .product-image {
   transition: all 0.3s ease-out;
   display: inline-block;
-  position: relative;
+  /* position: relative; */
   overflow: hidden;
   height: 100%;
   float: right;
