@@ -5,7 +5,7 @@
       <h1 class="text-3xl text-orange-600 mt-8 capitalize">
         Fuckable CSS (TailwindCSS)
       </h1>
-      <p class=" leading-relaxed tracking-wider text-gray-700 text-xl mt-8 text-center antialiased italic mr-24 ml-24">
+      <div class=" leading-relaxed tracking-wider text-gray-700 text-xl mt-8 text-center antialiased italic mr-24 ml-24">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Aliquet enim tortor
         at auctor urna nunc. Pellentesque nec nam aliquam sem et tortor
@@ -66,7 +66,7 @@
         integer malesuada nunc vel risus commodo. Cursus risus at ultrices mi.
         Volutpat sed cras ornare arcu dui vivamus arcu felis bibendum. Euismod
         in pellentesque massa placerat. Amet cursus sit amet dictum.
-      </p>
+      </div>
     </section>
   </div>
 </template>
