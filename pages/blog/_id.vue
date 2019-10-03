@@ -68,7 +68,7 @@
         in pellentesque massa placerat. Amet cursus sit amet dictum.
       </div>
     </section>
-    <section class="bg-white mt-10 text-center  m-auto ">
+    <section class="bg-gray-200 mt-10 text-center  m-auto ">
       <h1 class="font-medium text-2xl text-orange-500 italic font-serif pt-4">
         Recent added
       </h1>

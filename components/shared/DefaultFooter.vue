@@ -1,10 +1,10 @@
 <template>
   <div class="flex flex-col m-auto w-full ">
     <div class="flex flex-row m-auto w-full">
-      <section class="bg-gray-200 flex flex-col w-1/2 ">
+      <section class="bg-gray-900 flex flex-col w-1/2 ">
         <div class="flex flex-col ml-5 mr-8 mt-2">
           <span
-            class="text-lg font-medium text-orange-600 mr-4 ml-3 align-middle"
+            class="text-lg font-medium text-white mr-4 ml-3 align-middle"
             >Your Name</span
           >
           <input
@@ -15,7 +15,7 @@
         </div>
         <div class="flex flex-col mt-8 mb-10 ml-5 mr-8">
           <span
-            class="text-lg font-medium text-orange-600 mr-4 ml-3 align-middle"
+            class="text-lg font-medium text-white mr-4 ml-3 align-middle"
             >Your Email</span
           >
           <input
@@ -25,14 +25,14 @@
           />
         </div>
       </section>
-      <section class="grd w-full text-center">
+      <section class="bg-gray-900 w-full text-center">
         <div class="mt-12 flex flex-col text-center ">
-          <span class="capitalize text-3xl text-gray-800"
+          <span class="capitalize text-3xl text-white"
             >start getting free help!</span
           >
-          <span class="text-gray-700 text-sm">(Subscribe Motherfucker)</span>
+          <span class="text-white text-sm">(Subscribe Motherfucker)</span>
           <button
-            class="bg-blue-600 rounded w-1/6 m-auto mt-5 text-lg font-medium p-1 hover:bg-blue-700 hover:shadow-outline"
+            class="bg-orange-600 rounded w-1/6 m-auto mt-5 text-lg font-medium p-1 hover:bg-orange-700 hover:shadow-lg"
           >
             Help
           </button>
@@ -61,30 +61,3 @@ export default {
 };
 </script>
 
-<style scoped>
-.grd {
-  background: #ffb76b;
-  background: -moz-linear-gradient(
-    top,
-    #ffb76b 0%,
-    #ffa73d 28%,
-    #ff7c00 85%,
-    #ff7f04 100%
-  ); /* FF3.6-15 */
-  background: -webkit-linear-gradient(
-    top,
-    #ffb76b 0%,
-    #ffa73d 28%,
-    #ff7c00 85%,
-    #ff7f04 100%
-  ); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(
-    to bottom,
-    #ffb76b 0%,
-    #ffa73d 28%,
-    #ff7c00 85%,
-    #ff7f04 100%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7f04',GradientType=0 ); /* IE6-9 */
-}
-</style>

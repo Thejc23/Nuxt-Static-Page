@@ -12,13 +12,9 @@
             class="text-base font-medium tracking-widest px-2 mt-auto hover:bg-orange-500 mb-2 socials"
           >Blog</nuxt-link>
           <nuxt-link
-            to="/"
+            to="/about"
             class="text-base font-medium tracking-widest px-2 mt-auto hover:bg-orange-500 mb-2 socials"
           >About</nuxt-link>
-          <nuxt-link
-            to="/contact"
-            class="text-base font-medium tracking-widest px-2 mt-auto hover:bg-orange-500 mb-2 socials"
-          >Contact</nuxt-link>
         </div>
         <div class="ml-auto mt-auto mb-2 mr-5">
           <a href>
